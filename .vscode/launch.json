@@ -3,6 +3,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "https://og.nullnull.dev/site/e11bb593-6634-531a-fc02-d24dba161664",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Attach to Chrome",
+      "port": 9222,
+      "request": "attach",
+      "type": "chrome",
+      "webRoot": "${workspaceFolder}"
+    },
+
+    {
       "name": "ng serve",
       "type": "chrome",
       "request": "launch",
